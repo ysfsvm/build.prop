@@ -36,7 +36,7 @@ jobs:
     strategy:
       matrix:
         # Devices to build props for
-        device_name: [bluejay]
+        device_name: [ bluejay, raven ]
 
     runs-on: ubuntu-latest
     steps:
