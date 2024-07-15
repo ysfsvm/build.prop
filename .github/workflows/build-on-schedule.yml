@@ -36,7 +36,7 @@ jobs:
     strategy:
       matrix:
         # Devices to build props for
-        device_name: [akita, husky, shiba, cheetah, raven]
+        device_name: [bluejay]
 
     runs-on: ubuntu-latest
     steps:
